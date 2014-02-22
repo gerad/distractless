@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Distractless",
+  "description": "Make the web a little less distracting.",
+  "version": "0.1",
+
+  "chrome_url_overrides": {
+    "newtab": "distractless.html"
+  },
+
+  "background": {
+    "scripts": ["distractless.js"]
+  },
+
+  "permissions": [
+    "webNavigation", "tabs"
+  ]
+}
